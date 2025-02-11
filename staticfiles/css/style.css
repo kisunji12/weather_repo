@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}
